@@ -1,0 +1,6 @@
+Colors
+
+#EB6896 /* sluff pink */
+#0F6A8B /* sluff  blue*/
+#F5F5F5 /*sluff white/grey*/
+#EFAF46 /* sluff orange */

@@ -1,0 +1,31 @@
+Education
+	Western Governor's University
+		Bachelor's of Science in Information Technology
+		Courses
+		Scripting and Programming Award
+
+Certifications
+	IT
+		LPIC-1 August 2017
+		ITIL Foundation in Service Management July 2018
+	Web Design
+		CIW Site Development Associate January 2018
+		CIW User Interface Designer March 2018
+		CIW Advanced HTML5 & CSS3 Specialist April 2018
+	CompTIA
+		A+ June 2016
+		Network+ February 2017
+		Security+ March 2017
+		Linux+ August 2017
+		Project+ July 2018
+
+The combination of CompTIA certifications create "Stackable Certifications".  These stackable certs grant me several titles in the Cybersecurity and Infrastructure areas of IT:
+
+Cybersecurity
+ 	CompTIA Secure Infrastructure Specialist – CSIS
+
+Infrastructure
+ 	CompTIA Linux Network Professional - CLNP
+	CompTIA IT Operations Specialist – CIOS
+	CompTIA Systems Support Specialist – CSSS
+

@@ -1,0 +1,167 @@
+@import url("reset.css");
+a, a:link:visited{
+  color: #EFAF46; /* sluff orange */
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover,a:active{
+  color: #EB6896; /* sluff pink*/
+  text-decoration: underline;
+  text-decoration-color: #EFAF46; /* sluff orange */
+  cursor: pointer;
+}
+a:focus{
+  outline-color: black;
+  outline-style: dotted;
+  outline-width: 1px;
+  cursor: pointer;
+}
+body {
+  background-color: #0F6A8B; /* sluff  blue*/
+  color: #F5F5F5; /*sluff white/grey */
+  font-size: 67%;
+  font-family: 'Raleway', sans-serif;
+  margin: 2.5em auto 0 auto;
+}
+blockquote p {
+  font-style: italic;
+}
+blockquote p::before {
+  content: "\201C";
+}
+blockquote p::after{
+  content: "\201D";
+}
+em {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, {
+  font-weight: bold;
+}
+header {
+  box-sizing: border-box;
+  margin: 0 auto 20px auto;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+nav {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6em;
+}
+nav a {
+   display: inline-block;
+   position: relative;
+   z-index: 1;
+   padding: 20px;
+   margin: -20px;
+}
+#achievements {
+}
+#header, #footer, #main {
+  font-size: 1.8em;
+}
+#logo {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+#logo a {
+  text-decoration: none;
+  outline-style: none;
+  cursor: default;
+  outline-width: 0px;
+}
+#logo h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 64pt;
+}
+#logoimg img {
+  width:auto;
+  max-width 33%;
+}
+#logoleft{
+ width: 33%;
+ text-align: right;
+}
+#logoright{
+  width: 33%;
+  text-align: left;
+}
+.pagetext {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.75;
+}
+.pagetext h1 {
+  font-size: 42pt;
+}
+.pagetext p {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.button {
+  background-color: #EB6896; /* sluff pink*/
+  color: white;
+}
+.button:hover {
+  background-color: #0F6A8B;
+}
+#certs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+#certs .pagetext {
+  text-align: center;
+  font-size: 1.2em;
+  width: 100%;
+  margin: 0px auto 40px auto;
+}
+#certs .pagetext p {
+  width: 80%;
+  margin: 20px auto;
+}
+.cert {
+    height: 350px;
+    width: 225px;
+    background-color: #F5F5F5;
+    color: #0F6A8B;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 8px 8px #565656;
+    float: left;
+    margin: 0 1.2em 1.2em 0;
+    font-size: 1em;
+    line-height: 1.1;
+}
+.cert img {
+  margin-top: 10px;
+}
+.scert img {
+  margin-top: 10px;
+}
+.scert {
+  height: 350px;
+  width: 225px;
+  background-color: white;
+  color: #0F6A8B;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 8px 8px #565656;
+  float: left;
+  margin: 0 1em 1em 0;
+  font-size: 1em;
+  line-height: 1.1;
+}
