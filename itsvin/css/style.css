@@ -23,15 +23,6 @@ body {
   font-family: 'Raleway', sans-serif;
   margin: 2.5em auto 0 auto;
 }
-blockquote p {
-  font-style: italic;
-}
-blockquote p::before {
-  content: "\201C";
-}
-blockquote p::after{
-  content: "\201D";
-}
 em {
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
@@ -46,6 +37,12 @@ header {
 }
 img {
   max-width: 100%;
+}
+footer {
+  clear: both;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 nav {
   display: flex;
@@ -97,6 +94,12 @@ nav a {
   width: 33%;
   text-align: left;
 }
+#descriptors {
+  float: left;
+  display: block;
+  font-size: 60pt;
+  font-family: 'Oswald', sans-serif;
+}
 .pagetext {
   width: 80%;
   margin: 40px auto;
@@ -110,6 +113,7 @@ nav a {
 .pagetext p {
   margin-top: 40px;
   margin-left: 20px;
+  text-align: left;
 }
 .button {
   background-color: #EB6896; /* sluff pink*/
@@ -118,18 +122,18 @@ nav a {
 .button:hover {
   background-color: #0F6A8B;
 }
-#certs {
+.certs {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
-#certs .pagetext {
+.certs .pagetext {
   text-align: center;
   font-size: 1.2em;
   width: 100%;
   margin: 0px auto 40px auto;
 }
-#certs .pagetext p {
+.certs .pagetext p {
   width: 80%;
   margin: 20px auto;
 }
